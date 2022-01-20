@@ -81,41 +81,45 @@ nav{
 }
 
 .section-border{
-    padding: 80px 0;
+    padding: 80px;
     background-color: #FDF0E9;
 }
 .first-blog{
+    margin-bottom: 68px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
-.stories{
+
+.stories, .design{
     margin: auto;
     height: 35rem;
 }
-.stories img{
-    width: 100%;
-    height: auto;
-}
-.stories p{
+.stories p, .design p{
     margin: 20px 0;
     font-size: 20px;
 }
-.stories h1{
+.stories h1, .design h1{
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 16px;
 }
-.design{
-    margin: auto;
-    height: 35rem;
+.second-blog{
+    margin-top: 79px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
 }
-.design p{
+.branding, .marketing, .stories2, .stories3, .design2, .design3{
+    margin: auto;
+    height: 25rem;
+}
+.branding p, .marketing p, .stories2 p, .stories3 p, .design2 p, .design3 p{
     margin: 20px 0;
     font-size: 20px;
 }
-.design h1{
-    font-size: 40px;
+.branding h1, .marketing h1, .stories2 h1, .stories3 h1, .design2 h1, .design3 h1{
+    font-size: 24px;
     font-weight: 800;
     margin-bottom: 16px;
 }
@@ -185,32 +189,21 @@ nav{
 }
 
 .first-blog{
+    margin-bottom: 0;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 30px;
 }
-.stories{
+.stories, .design{
     margin: auto;
     width: 330px;
     height: 25rem;
 }
-.stories img{
+.stories img, .design img{
     width: 335px;
     border-radius: 0 10px 10px 0;
 }
-.stories h1{
-    font-size: 24px;
-}
-.design{
-    margin: auto;
-    width: 330px;
-    height: 25rem;
-}
-.design img{
-    width: 335px;
-    border-radius: 0 10px 10px 0;
-}
-.design h1{
+.stories h1, .design h1{
     font-size: 24px;
 }
 
@@ -274,32 +267,21 @@ nav{
     }
     
 .first-blog{
+    margin-bottom: 50px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
-.stories{
+.stories, .design{
     margin: 0 20px;
     width: 330px;
     height: 25rem;
 }
-.stories img{
+.stories img, .design img{
     width: 335px;
     border-radius: 0 10px 10px 0;
 }
-.stories h1{
-    font-size: 24px;
-}
-.design{
-    margin: 0 20px;
-    width: 330px;
-    height: 25rem;
-}
-.design img{
-    width: 335px;
-    border-radius: 0 10px 10px 0;
-}
-.design h1{
+.stories h1, .design h1{
     font-size: 24px;
 }
     }
