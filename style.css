@@ -35,10 +35,9 @@ nav{
     align-items: center;
 }
 .nav-item{
-    padding: 0 10px;
+    padding: 0 30px;
 }
 .nav-link{
-    padding: 10px;
     color: #fff;
 }
 .nav-link:hover{
@@ -81,7 +80,7 @@ nav{
 }
 
 .section-border{
-    padding: 80px;
+    padding: 80px 0;
     background-color: #FDF0E9;
 }
 .first-blog{
@@ -201,10 +200,25 @@ nav{
 }
 .stories img, .design img{
     width: 335px;
-    border-radius: 0 10px 10px 0;
+    border-radius: 0 15px 15px 0;
 }
 .stories h1, .design h1{
     font-size: 24px;
+}
+.second-blog{
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+}
+.branding, .marketing, .stories2, .stories3, .design2, .design3{
+    margin: auto;
+    width: 330px;
+    height: 25rem;
+}
+.branding img, .marketing img, .stories2 img, .stories3 img, .design2 img, .design3 img{
+    width: 335px;
+    border-radius: 0 15px 15px 0;
 }
 
 }
@@ -267,7 +281,7 @@ nav{
     }
     
 .first-blog{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
@@ -283,5 +297,20 @@ nav{
 }
 .stories h1, .design h1{
     font-size: 24px;
+}
+.second-blog{
+    margin-top: 66px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.branding, .marketing, .stories2, .stories3, .design2, .design3{
+    margin: auto;
+    width: 330px;
+    height: 25rem;
+}
+.branding img, .marketing img, .stories2 img, .stories3 img, .design2 img, .design3 img{
+    width: 335px;
+    border-radius: 0 10px 10px 0;
 }
     }
