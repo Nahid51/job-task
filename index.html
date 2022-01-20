@@ -20,11 +20,12 @@
             <nav id="nav-menu">
                 <ul class="nav-list">
                     <i id="header-close" class="far fa-times-circle "></i>
+                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-                    <button class="button-setup">CONTACT</button>
+                    <button id="contact-button" class="button-setup">CONTACT</button>
                 </ul>
             </nav>
             <img id="header-toggle" src="./images/menu.png" alt="Toggle Bar">
@@ -101,17 +102,17 @@
             </div>
         </article>
         <div class="loadMoreButton">
-            <button class="loadButton">LOAD MORE</button>
+            <button id="loadMoreButton" class="loadButton">LOAD MORE</button>
         </div>
 
         <hr>
 
         <div class="form-border">
-            <div class="form-submit">
+            <form class="form-submit">
                 <h2>Newsletter</h2>
-                <input placeholder="Your email" type="email" name="email" id="">
-                <button type="submit">SUBSCRIBE</button>
-            </div>
+                <input onblur="getEmail()" placeholder="Your email" type="email" name="email" id="getEmail">
+                <button id="formSubmitButton" type="submit">SUBSCRIBE</button>
+            </form>
         </div>
 
         <hr>
@@ -125,7 +126,7 @@
                     <p>A digital agency is a business you hire to outsource your <br> digital marketing efforts, instead
                         of
                         handling in-house.</p>
-                    <button>CONTACT NOW</button>
+                    <button id="contactNowButton">CONTACT NOW</button>
                 </div>
                 <div class="right-side">
                     <img src="./images/Bitmap (8).png" alt="">
