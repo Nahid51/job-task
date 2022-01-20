@@ -5,9 +5,15 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Epilogue', sans-serif;
+    overflow-x: hidden;
 }
 ul{
     list-style: none;
+}
+hr{
+    width: 90%;
+    margin: auto;
+    border: 1px solid #F3D1BF;;
 }
 .bg-color{
     width: 100%;
@@ -87,6 +93,10 @@ nav{
     margin: auto;
     height: 35rem;
 }
+.stories img{
+    width: 100%;
+    height: auto;
+}
 .stories p{
     margin: 20px 0;
     font-size: 20px;
@@ -94,6 +104,7 @@ nav{
 .stories h1{
     font-size: 40px;
     font-weight: 800;
+    margin-bottom: 16px;
 }
 .design{
     margin: auto;
@@ -106,6 +117,7 @@ nav{
 .design h1{
     font-size: 40px;
     font-weight: 800;
+    margin-bottom: 16px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -113,6 +125,11 @@ header{
     height: 5rem;
     justify-content: space-between;
     padding: 0 20px;
+}
+hr{
+    width: 0;
+    margin: 0;
+    border: 0;
 }
 .logo img {
     width: 7rem;
@@ -166,36 +183,37 @@ nav{
     margin-top: 100px;
     padding: 0 10px 66px;
 }
-/* 
+
 .first-blog{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 30px;
 }
 .stories{
     margin: auto;
-    height: 35rem;
+    width: 330px;
+    height: 25rem;
 }
-.stories p{
-    margin: 20px 0;
-    font-size: 20px;
+.stories img{
+    width: 335px;
+    border-radius: 0 10px 10px 0;
 }
 .stories h1{
-    font-size: 40px;
-    font-weight: 800;
+    font-size: 24px;
 }
 .design{
     margin: auto;
-    height: 35rem;
+    width: 330px;
+    height: 25rem;
 }
-.design p{
-    margin: 20px 0;
-    font-size: 20px;
+.design img{
+    width: 335px;
+    border-radius: 0 10px 10px 0;
 }
 .design h1{
-    font-size: 40px;
-    font-weight: 800;
-} */
+    font-size: 24px;
+}
+
 }
 
 
@@ -254,4 +272,34 @@ nav{
         border-radius: 5px;
         margin-left: 0;
     }
+    
+.first-blog{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.stories{
+    margin: 0 20px;
+    width: 330px;
+    height: 25rem;
+}
+.stories img{
+    width: 335px;
+    border-radius: 0 10px 10px 0;
+}
+.stories h1{
+    font-size: 24px;
+}
+.design{
+    margin: 0 20px;
+    width: 330px;
+    height: 25rem;
+}
+.design img{
+    width: 335px;
+    border-radius: 0 10px 10px 0;
+}
+.design h1{
+    font-size: 24px;
+}
     }
