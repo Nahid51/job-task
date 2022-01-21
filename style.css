@@ -245,9 +245,18 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-.footer-term a{
+.footer-term{
+    margin-left: auto;    
+}
+.footer-term ul{
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-term ul li{
     margin-left: 68px;
-    font-size: 16px;
+}
+.footer-term a{
     color: #391400;
 }
 #twitter{
@@ -265,6 +274,7 @@ nav{
 
 
 
+/* make responsive for mobile version */
 
 @media only screen and (max-width: 600px) {
 header{
@@ -359,6 +369,10 @@ nav{
     width: 335px;
     border-radius: 0 15px 15px 0;
 }
+.row1 ul, .row2 ul, .row3 ul{
+    text-align: center;
+}
+
 .loadButton{
     border: 2px solid #F1A59E;
 }
@@ -398,8 +412,8 @@ nav{
     background-color: #FDF0E9;
 }
 .footer-position{
-    display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .footer-below{
     display: flex;
@@ -418,6 +432,7 @@ nav{
 
 }
 
+/* make responsive for tablet version */
 
 @media only screen and (min-width: 601px) and (max-width: 770px) {
     header{
@@ -532,14 +547,12 @@ nav{
 .footer-below{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
-.copywrite{
-    margin-bottom: 20px;
-}
-.footer-term a{
-    margin: 68px;
-    font-size: 16px;
-    color: #391400;
+.footer-term{
+    position: absolute;
+    left: 23%;
+    margin-top: 5rem;
 }
     }

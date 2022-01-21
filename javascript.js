@@ -19,7 +19,7 @@ document.getElementById('loadMoreButton').addEventListener('click', function () 
 })
 
 document.getElementById('formSubmitButton').addEventListener('click', function () {
-    alert('Document will be coming soon.')
+    alert('Document submission system is coming soon.')
 })
 
 document.getElementById('contactNowButton').addEventListener('click', function () {
